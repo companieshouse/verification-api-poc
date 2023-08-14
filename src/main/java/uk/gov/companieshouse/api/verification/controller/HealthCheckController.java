@@ -4,7 +4,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/verification-account")
+@RequestMapping("/verification")
 public class HealthCheckController {
 
     @GetMapping("/healthcheck")
